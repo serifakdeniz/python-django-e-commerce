@@ -1,5 +1,7 @@
 "# python-django-e-commerce" 
-py -m venv eteticaret
+
+
+py -m venv eticaret
 
 eticaret\Scripts\activate.bat
 
@@ -29,7 +31,7 @@ Migrations for 'urunler':
     + Create model kategoriler
 
 
-(yteticaret) C:\yteticaret\shop>python manage.py migrate   (makemigration dedikten sonra migrate komutu hep girilir.)
+(eticaret) C:\eticaret\shop>python manage.py migrate   (makemigration dedikten sonra migrate komutu hep girilir.)
 Operations to perform:
   Apply all migrations: admin, auth, contenttypes, sessions, urunler
 Running migrations:
