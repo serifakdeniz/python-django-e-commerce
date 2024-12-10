@@ -1,11 +1,11 @@
 "# python-django-e-commerce" 
 py -m venv eteticaret
 
-eteticaret\Scripts\activate.bat
+eticaret\Scripts\activate.bat
 
 pip install django
 
-cd eteproject
+cd eticaret
 
 django-admin startproject shop
 
